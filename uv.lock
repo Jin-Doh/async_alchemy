@@ -11,9 +11,9 @@ wheels = [
 ]
 
 [[package]]
-name = "async-alchemy"
+name = "async-db-alchemy"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "asyncpg" },
     { name = "greenlet" },

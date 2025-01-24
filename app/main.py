@@ -3,8 +3,7 @@ from typing import Optional
 from sqlalchemy.ext.asyncio import AsyncEngine, create_async_engine
 from sqlalchemy.orm import DeclarativeBase
 
-from app.modules.configs import DatabaseConfig
-from app.modules.session import SessionManager
+from app.modules import DatabaseConfig, SessionManager
 
 
 class Database:
